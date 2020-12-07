@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/72721/Desktop/uart/uart.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/72721/Desktop/uart/uart.srcs/sim_1/new/uart_tb.v,1607259430,verilog,,,,uart_tb,,,,,,,,
+C:/Users/72721/Desktop/uart/uart.srcs/sources_1/new/uart_rx.v,1607311776,verilog,,C:/Users/72721/Desktop/uart/uart.srcs/sources_1/new/uart_top.v,,uart_rx,,,,,,,,
+C:/Users/72721/Desktop/uart/uart.srcs/sources_1/new/uart_top.v,1607243468,verilog,,C:/Users/72721/Desktop/uart/uart.srcs/sources_1/new/uart_tx.v,,uart_top,,,,,,,,
+C:/Users/72721/Desktop/uart/uart.srcs/sources_1/new/uart_tx.v,1607259297,verilog,,C:/Users/72721/Desktop/uart/uart.srcs/sim_1/new/uart_tb.v,,uart_tx,,,,,,,,
