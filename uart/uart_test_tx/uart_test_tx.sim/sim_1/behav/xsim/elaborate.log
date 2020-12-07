@@ -1,0 +1,14 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx2018p3/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto cc6f0c30a543430ab808ca9f8418a062 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_tx_tb_behav xil_defaultlib.uart_tx_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/72721/Desktop/uart_test_tx/uart_test_tx.srcs/sources_1/new/uart_tx.v" Line 1. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_tx_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_tx_tb_behav

@@ -1,0 +1,79 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Dec  7 11:30:30 2020
+| Host         : DESKTOP-78CGVRR running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file uart_rx_control_sets_placed.rpt
+| Design       : uart_rx
+| Device       : xc7z010
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    12 |
+| Unused register locations in slices containing registers |    70 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            9 |
+|      4 |            1 |
+|      7 |            1 |
+|     14 |            1 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               7 |            2 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               1 |            1 |
+| Yes          | No                    | No                     |               8 |            8 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              18 |            5 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+----------------------------+-------------------------+------------------+----------------+
+|  Clock Signal  |        Enable Signal       |     Set/Reset Signal    | Slice Load Count | Bel Load Count |
++----------------+----------------------------+-------------------------+------------------+----------------+
+|  clk_IBUF_BUFG | rx_data_out_reg[0]_i_1_n_0 |                         |                1 |              1 |
+|  clk_IBUF_BUFG | rx_data_out_reg[1]_i_1_n_0 |                         |                1 |              1 |
+|  clk_IBUF_BUFG | rx_data_out_reg[2]_i_1_n_0 |                         |                1 |              1 |
+|  clk_IBUF_BUFG | rx_data_out_reg[3]_i_1_n_0 |                         |                1 |              1 |
+|  clk_IBUF_BUFG | rx_data_out_reg[4]_i_1_n_0 |                         |                1 |              1 |
+|  clk_IBUF_BUFG | rx_data_out_reg[5]_i_1_n_0 |                         |                1 |              1 |
+|  clk_IBUF_BUFG | rx_data_out_reg[6]_i_1_n_0 |                         |                1 |              1 |
+|  clk_IBUF_BUFG | rx_data_out_reg[7]_i_1_n_0 |                         |                1 |              1 |
+|  rx_done_OBUF  |                            | rx_start0               |                1 |              1 |
+|  clk_IBUF_BUFG | cnt_data[3]_i_2_n_0        | cnt_data[3]_i_1_n_0     |                1 |              4 |
+|  clk_IBUF_BUFG |                            |                         |                2 |              7 |
+|  clk_IBUF_BUFG | rx_start                   | cnt_9600bps[13]_i_1_n_0 |                4 |             14 |
++----------------+----------------------------+-------------------------+------------------+----------------+
+
+
